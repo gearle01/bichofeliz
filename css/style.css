@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.corpo {}
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #e6e5e5;
+}
+
+header {
+  background: #cacaca;
+  padding: 2px 0;
+}
+
+.topo {
+  position: relative;
+  width: 950px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #363636;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fd8f0c;
+  text-decoration: underline;
+}
+
+.bloco-produto:hover,
+.bloco-produto:active {
+  transform: scale(1.05);
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.363);
+}
+
+.bloco-produto {
+  width: 150px;
+  height: 250px;
+  display: inline-block;
+  text-decoration-color: none;
+  list-style-type: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.descricao {
+  font-family: "Roboto", sans-serif;
+}
+
+.valor {
+  top: 2%;
+}
+
+.nome {
+  margin-top: 3%;
+  font-size: 20px;
+  top: 2%;
+}
+
+.paragrafo {
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+  width: 950px;
+  margin: 0 auto;
+  right: 30px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  background-color: #e6e5e5;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bloco-dog-texto {
+  margin: 10%;
+}
+
+.imagem-do-lado-do-texto,
+p {
+  float: left;
+  margin-bottom: 10px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  min-height: 100%;
+}
+
+.content-inside {
+
+  float: none;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+body {
+  font: 16px Sans-Serif;
+}
+
+#rodape {
+  margin-top: 100px;
+  text-align: center;
+  margin-right: 0%;
+  margin-left: 0%;
+  margin: 0 0 20px 0;
+}
+
+#rodape-footer {
+  margin: 20px 0 0 0;
+}
+
+footer {
+  height: 100%;
+  text-align: center;
+  background: #fd8f0c;
+  color: white;
+  line-height: 50px;
+  padding: 0 20px;
+}

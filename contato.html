@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lan="pt-br">
+
+<head>
+  <meta charset="=UTF-8" />
+  <title>Bicho Feliz</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/contato.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap" rel="stylesheet" />
+</head>
+<div>
+  <header>
+    <div class="topo">
+      <h1><img src="/img/Logo bicho feliz1.png" alt="Logo Bicho Feliz" /></h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="acessorios.html">Acessórios</a></li>
+          <li><a href="loja.html">Lojas Próximas</a></li>
+          <li><a href="contato.html">Contato</a></li>
+
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<body>
+  <main>
+    <fieldset class="areas">
+      <form class="box">
+        <label for="nome" style="color: #202020;">Nome</label>
+        <input type="text" id="label" class="input" required>
+
+        <label for="sobrenome" style="color: #202020;">Sobrenome</label>
+        <input type="text" id="label" class="input" required>
+
+        <label for="email" style="color: #202020;">Email</label>
+        <input type="email" id="label" class="input" required>
+
+        <label for="telefone" style="color: #202020;">Telefone</label>
+        <input type="tel" id="label" class="input" required style="margin-bottom: 30px;">
+
+        <label for="mensagem" style="color: #202020; ;">Mensagem</label>
+        <textarea cols="50" rows="10" id="label" class="input" required></textarea>
+
+
+        <legend style="margin-top: 25px; margin-bottom: 15px;">Como prefere o nosso contato?</legend>
+        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked>
+          Email</label>
+
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+          Telefone</label>
+
+        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+          WhatsApp</label>
+
+        <label for="radio-whatsapp"><input type="radio" name="contato" value="telegram" id="radio-telegram"
+            style="margin-bottom: 20px;">
+          Telegram</label>
+
+
+
+        <legend style="margin-top: 10px;">Qual horário prefere ser atendido?</legend>
+        <select style="font-size: 20px;">
+          <option selected disabled value="">Selecione</option>
+          <option>Manhã</option>
+          <option>Tarde</option>
+        </select>
+
+
+        <label style="margin-right: 5px;" class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas
+          atualizações por
+          email?</label>
+
+        <input type="submit" value="Enviar" class="enviar">
+      </form>
+    </fieldset>
+  </main>
+
+
+  <div class="content">
+    <div class="content-inside">
+      <h1 id="rodape" style="font-size: 1; color: white;"></h1>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    Copyright &copy; 2021 GSM Serviços Digitais.
+  </footer>
+
+</body>
+
+</html>

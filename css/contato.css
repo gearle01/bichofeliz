@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.corpo {}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background: #e6e5e5;
+
+}
+
+header {
+  background: #cacaca;
+  padding: 2px 0;
+}
+
+.topo {
+  position: relative;
+  width: 950px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #363636;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fd8f0c;
+  text-decoration: underline;
+}
+
+.box {
+  margin-left: 28%;
+  margin-top: 2%;
+  width: 500px;
+
+}
+
+#label {
+  border: 1px solid #323232;
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.box input[type="text"],
+.box input[type="email"],
+.box textarea {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.box input:focus,
+.box textarea:focus {
+  background: #ffc4003d;
+}
+
+main {
+  width: 950px;
+  margin: 0 auto;
+}
+
+form {}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 35px;
+  width: 80%;
+}
+
+.checkbox {
+  margin: 20px 0;
+
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: #fd8f0c;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  transition: 0.5s all;
+  cursor: pointer;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+
+.enviar:hover {
+  background: #ffb760;
+
+}
+
+html,
+body {
+  height: 50%;
+  margin: 0;
+}
+
+.content {
+  min-height: 100%;
+}
+
+.content-inside {
+  float: none;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+body {
+  font: 16px Sans-Serif;
+}
+
+#rodape {
+  margin-top: 100px;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin: 0 0 20px 0;
+}
+
+#rodape-footer {
+  margin: 20px 0 0 0;
+}
+
+footer {
+  height: 100%;
+  text-align: center;
+  background: #fd8f0c;
+  color: white;
+  line-height: 50px;
+  padding: 0 20px;
+}
